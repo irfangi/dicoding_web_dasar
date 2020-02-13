@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+.container{
+    width: 70vw;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 248, 246);
+    height: 60px;
+    flex-direction: column;
+    position: fixed;
+    width: 100vw;
+}
+.menu a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: rgb(39, 39, 39);
+    font-weight: 600;
+}
+
+#introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-intro{
+    height: 500px;
+}
+.content-intro *{
+    margin: 0 ; padding: 0;
+}
+.content-intro h1{
+    margin-top: 200px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 2em;
+}
+.hire-me{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 8px 30px;
+    border: 2px solid green;
+    color: green;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+}
+.hire-me:hover{
+    background-color: green;
+    color: white;
+}
+
+#aboutMe{
+    background-color: rgb(248, 248, 246);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+}
+
+.content-about-body{
+    display: flex;
+}
+.content-about h2{
+    margin-top: 20px;
+}
+.content-about-body div{
+    margin: 10px;
+}
+.about-text{
+    text-align: left;
+    flex-basis: 60%;
+    line-height: 1.7em;
+}
+.about-text p{
+    margin: 0;
+    padding: 0;
+}
+.about-img{
+    flex-basis: 40%;
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+}
