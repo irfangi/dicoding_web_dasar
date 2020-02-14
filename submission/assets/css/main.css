@@ -126,6 +126,17 @@ nav{
     text-decoration: none;
 }
 
+/* biodata */
+aside table{
+    margin: auto;
+    text-align: left;
+    line-height: 1.7em;
+}
+
+.fst-col{
+    width: 100px;
+}
+
 /* footer */
 
 footer{
